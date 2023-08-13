@@ -1,0 +1,109 @@
+body.serpia {
+  color: rgb(79, 50, 28);
+  box-shadow: rgba(0, 0, 0, 0.2);
+  background-color: rgb(248, 241, 227);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#article {
+  box-shadow: 0px 6px 12px 3px;
+  font-size: 19px;
+  line-height: 29px;
+  min-height: 100%;
+  margin: 22px auto 0 auto;
+}
+
+article img {
+  margin: 0.5em auto;
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.page {
+  padding-top: 20px;
+  text-align: start;
+  word-wrap: break-word;
+  margin: 50px;
+}
+
+h1.title {
+  font-weight: bold;
+  font-size: 1.95552em;
+  line-height: 1.2141em;
+  margin-top: 50px;
+  margin-bottom: 0.5em;
+}
+
+p {
+  text-align: justify;
+}
+
+p.details {
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  color: white;
+  align-items: center;
+}
+
+hr {
+  border: 0.5px solid rgb(79, 50, 28);
+}
+
+.page footer,
+hr {
+  background-color: black;
+  margin-left: -50px;
+  margin-right: -50px;
+}
+
+.page footer {
+  margin-top: -5px;
+}
+
+.social {
+  width: 20px;
+  height: auto;
+  margin-left: 20px;
+}
+
+p.details1 {
+  margin-top: -20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.credits {
+  margin-left: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  [class="foot"] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  [class="details1"] {
+    text-align: start;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-top: 20px;
+  }
+  [class="credits"] {
+    margin-left: 70px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  [class="foot"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
